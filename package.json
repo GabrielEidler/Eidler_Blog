@@ -1,0 +1,24 @@
+{
+  "name": "RESTblog",
+  "version": "1.0.0",
+  "description": "a RESTfull blog",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "express-sanitizer": "^1.0.5",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": [],
+  "author": "Gabriel Eidler",
+  "license": "MIT"
+}
